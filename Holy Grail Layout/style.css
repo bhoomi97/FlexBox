@@ -1,0 +1,51 @@
+body{
+	padding: 20px;
+	text-align: center;
+}
+#header, #txt-col, #nav-col, #ad-col ,#footer {
+	padding: 10px;
+	margin: 7px;
+}
+
+.flexbox {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+#header{
+	background: lightblue;
+	height: 100px;
+	order: 1;
+	flex: 10 1 100%; 
+}
+#txt-col {
+	background: lightgreen;
+	height: 300px;
+	order: 3;
+	flex: 5 1;
+}
+#nav-col {
+	background: grey;
+	height: 300px;
+	order: 2;
+	flex: 1 1;
+}
+#ad-col{
+	background: grey;
+	height: 300px;
+	order: 4;
+	flex: 1 1 auto;
+}
+#footer {
+	background: lightblue;
+	min-height: 100px;
+	order: 5;
+	flex: 10 1 100%; 
+}
+span {
+	font-size: 20px;
+	padding: 0 4px;
+}
+p {
+	font-size: 18px;
+}
