@@ -16,31 +16,32 @@ body{
 	background: lightblue;
 	height: 100px;
 	order: 1;
-	flex: 10 1 100%; 
+	flex: 0 1 100%; 
 }
 #txt-col {
 	background: lightgreen;
-	height: 300px;
+	height: auto;
 	order: 3;
-	flex: 5 1;
+	flex: 1;
 }
 #nav-col {
 	background: grey;
 	height: 300px;
 	order: 2;
-	flex: 1 1;
+	flex: -1;
 }
 #ad-col{
 	background: grey;
 	height: 300px;
 	order: 4;
-	flex: 1 1 auto;
+	flex: -1;
 }
 #footer {
+	align-self: flex-end;
 	background: lightblue;
 	min-height: 100px;
 	order: 5;
-	flex: 10 1 100%; 
+	flex: 0 1 100%; 
 }
 span {
 	font-size: 20px;
